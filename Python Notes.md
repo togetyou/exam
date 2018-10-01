@@ -67,3 +67,7 @@
     科学计数法
     3.14 可表示为 314E-2或者314e-2
     round(3.5) 4 四舍五入取整
+#### 时间
+    time ,datetime,timedelta
+    time.time() 返回1970-1-1到至今的秒
+    
