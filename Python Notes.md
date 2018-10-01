@@ -69,5 +69,16 @@
     round(3.5) 4 四舍五入取整
 #### 时间
     time ,datetime,timedelta
-    time.time() 返回1970-1-1到至今的秒
+    time.time() 返回1970-1-1到至今的秒数
+    格式化时间time.strftime()
+    ```
+    strftime(...)
+        strftime(format[, tuple]) -> string
+    ```
+    字符串转化为时间 time.strptime()
+    ```
+      strptime(...)
+        strptime(string, format) -> struct_time
+    ```
+    时间计算 timedelta
     
