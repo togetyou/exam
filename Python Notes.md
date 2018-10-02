@@ -83,4 +83,12 @@
         strptime(string, format) -> struct_time
     ```
     时间计算 timedelta
+#### 函数
+##### 函数定义
+    python中函数本质也是对象 可以使用  type函数查看
     
+##### 函数返回值
+    使用return 关键字返回 如果不手动指定则默认返回 None
+
+    等值判断 == is ，注意==会判断实际的value值 is判断是否是同一个对象的地址
+    等值判断 == is ，注意==会判断实际的value值 is判断是否是同一个对象的地址
