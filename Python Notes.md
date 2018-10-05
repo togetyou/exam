@@ -101,8 +101,8 @@
 #### 集合元素
     tuple,list,dict,set
     #list 
-    li = [1,2,3]
-    tp =(1,2,3)
-    dic = {'a':'1','b':'2'}
-    se = {1,2,3}
+    li = [1,2,3] #<class 'list'>
+    tp =(1,2,3)  #<class 'tuple'>
+    dic = {'a':'1','b':'2'} #<class 'dict'>
+    se = {1,2,3} #<class 'set'>
     
