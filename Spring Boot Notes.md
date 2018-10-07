@@ -1,3 +1,7 @@
+#### 
+    文档：(https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/)
+    github:(https://github.com/spring-projects/spring-boot)
+
 #### 关键的注解
     Configuration注解 作用于类文件 相当于一个spring配置的xml文件。
     Bean 注解 相当于xml配置的bean注解。
@@ -16,6 +20,7 @@
    ```
 #### starter pom
 * web pom starter
+[starter](https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#using-boot-starter)
     ```
     <dependency>
         <groupId>org.springframework.boot</groupId>
