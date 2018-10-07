@@ -31,4 +31,6 @@
     server.port 
     server.server-path
     [全局配置文档](http://https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html)
-    
+
+#### 加载xml配置
+    If you absolutely must use XML based configuration, we recommend that you still start with a @Configuration class. You can then use an @ImportResource annotation to load XML configuration files.
