@@ -25,4 +25,4 @@
 #### 全局配置
     server.port 
     server.server-path
-    [document]: http://https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html        "document"
+    [document][http://https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html]
