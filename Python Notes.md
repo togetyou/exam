@@ -48,7 +48,7 @@
     // 整数除
     ** 幂运算
     divmod(x,y)   #返回商和余数
-    逻辑运算符 and or not 
+    逻辑运算符 and or not
     等值判断 == is ，注意==会判断实际的value值 is判断是否是同一个对象的地址
 #### 整数
     *进制
@@ -60,7 +60,7 @@
     int(5.4)
     python3整数大小无限制
     python2整数位32位
-    
+
     0xff = 15*16^1 + 16 = 255
 #### 浮点数
     float  浮点数类型
@@ -69,6 +69,23 @@
     科学计数法
     3.14 可表示为 314E-2或者314e-2
     round(3.5) 4 四舍五入取整
+#### 字符串
+    1.1字符串编码
+    (默认源代码文件为ascii编码)python 2 建议 定义文件编码： # -*- coding: utf-8 -*-
+    在字符串前面添加 u如u'中'
+    1.2python 3可以直接使用  
+    >>> ord('中') #内置函数ord 查看unicode编码
+    20013
+    >>> chr(20013) #内置函数chr 对应的unicode转换为字符
+    '中'
+    2.1 使用 单引号 和双引号 字符串创建
+    >>> str= "奥比岛"
+    >>> str
+    '奥比岛'
+    >>> str='奥比岛'
+    >>> str
+    '奥比岛'
+
 #### 时间
     time ,datetime,timedelta
     time.time() 返回1970-1-1到至今的秒数
@@ -93,16 +110,15 @@
     f2=f1
     f2()
     #java做不了这样啊哈哈哈
-    
+
 ##### 函数返回值
     使用return 关键字返回 如果不手动指定则默认返回 None
     等值判断 ==,is。注意==会判断实际的value值 is判断是否是同一个对象的地址
-    
+
 #### 集合元素
     tuple,list,dict,set
-    #list 
+    #list
     li = [1,2,3] #<class 'list'>
     tp =(1,2,3)  #<class 'tuple'>
     dic = {'a':'1','b':'2'} #<class 'dict'>
     se = {1,2,3} #<class 'set'>
-    
