@@ -10,7 +10,7 @@
             LinkedBlockingQueue 无界队列
             ArrrayBlockingQueue 有界队列
         DelayQueue  无界队列  （应用场景 delay获取）
-        TransferQueue  提供t一个transfer方法
+        TransferQueue  提一个transfer方法,transfer方法生产者往队列里面放对象的时候先看下有有没有消费者线程等待先给消费者线程否则等待
         
 #### 线程池
     Callable 有返回值，并且抛出异常
