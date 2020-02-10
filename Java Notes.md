@@ -30,6 +30,10 @@
     三个要素：观察者 事件源 事件  
     特别明显的应用在 UI事件编程，响应式编程里面
     设计一个观察者模式：垂钓？
+
+### 注解
+### Java8 Lambada 表达式
+
 ### 问题
     Thread.sleep TimeUnits.Sesconds.sleep 区别？
     各种线程池相关的队列 ？
